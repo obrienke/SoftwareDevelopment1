@@ -1,8 +1,8 @@
 public class Precision{
    public static void main(String[] args){
       double x = 44; 
-	  double y = 1.152; 
-	  double result; 
+      double y = 1.152; 
+      double result; 
   
       result = x * y;   /*If using decimal instead of binary the result you would get is 50.688 
                           Java produces a different decimal value as it uses binary.*/
