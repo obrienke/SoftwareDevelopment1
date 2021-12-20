@@ -23,7 +23,7 @@ public class Rating{
             System.out.println("Invalid rating - must be a value from 1 to 5.");
         }
 
-        //alternative you could use a switch statement instead of cascading if/else
+        //alternatively you could use a switch statement instead of cascading if/else
         System.out.println();
         switch(rating){
             case 1:
