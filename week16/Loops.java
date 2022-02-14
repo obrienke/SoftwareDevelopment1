@@ -3,7 +3,7 @@ and calculates the average number from the numbers entered.
 A do while loop is used for this purpose. 
 
 The program also demonstrates a while loop which iterates 5 times
-The while loop is then rewritten as a for loop to achive the same
+The while loop is then rewritten as a for loop to achieve the same
 outcome*/
 
 import java.util.Scanner;
