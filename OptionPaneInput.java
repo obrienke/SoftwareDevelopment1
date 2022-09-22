@@ -1,3 +1,4 @@
+//Example program which uses JOptionPane to accept user inputs.
 import javax.swing.JOptionPane;
 
 public class OptionPaneInput{
