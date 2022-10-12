@@ -2,7 +2,7 @@
 // Text-printing program
 
 public class J{
-
+ 
   //main method begins the execution of Java Application
   public static void main(String[] args){
 
