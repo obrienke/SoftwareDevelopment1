@@ -9,14 +9,14 @@ public class Addition{
 	  int number2; // second number input by user
 	  int sum; //variable to store result
 
-      System.out.print("Enter first integer: "); // prompt for input
-      number1 = input.nextInt(); // read first integer
-      System.out.print("Enter second integer: "); // prompt for input
-      number2 = input.nextInt(); // read first integer
+     System.out.print("Enter first integer: "); // prompt for input
+     number1 = input.nextInt(); // read first integer
+     System.out.print("Enter second integer: "); // prompt for input
+     number2 = input.nextInt(); // read first integer
 
-	   sum = number1 + number2;
-      System.out.println(number1 + " + " + number2 + " = " +sum);
-      input.close();
+	  sum = number1 + number2;
+     System.out.println(number1 + " + " + number2 + " = " +sum);
+     input.close();
    } // end method main
 } // end class Addition
 
