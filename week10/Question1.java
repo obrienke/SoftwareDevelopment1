@@ -25,8 +25,7 @@ public class Question1 {
 
         total = total / 2;
 
-        
-
-
+        System.out.println(total);
+        input.close();
     }
 }
