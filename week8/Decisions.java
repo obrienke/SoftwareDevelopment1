@@ -7,9 +7,9 @@ public class Decisions {
         
         System.out.print("Enter a number: ");
         number = input.nextInt();
-        x = (5 == 5);
+        x = (number == 5);
 
-        System.out.println("does 5 equal 5: " + x );
+        System.out.println("does " + number + " equal 5: " + x );
 
         x = (5 == 6);
 
