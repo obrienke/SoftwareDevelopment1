@@ -32,6 +32,6 @@ public class Quiz1 {
         }else{
             System.out.println("Fail");
         } 
-
+        input.close();
     }
 }
