@@ -8,7 +8,7 @@ public class TwentyNums{
 
 	 System.out.println();
 
-     i = 0;
+     i = 1;
 	 while (i <= 20) {
 	    System.out.print(i);
 	    if (i < 20){
