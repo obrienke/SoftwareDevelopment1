@@ -11,5 +11,6 @@ public class Lecture_Week17{
            
         }while(i == 0);
         System.out.println("End");
+        input.close();
     }
 }
