@@ -7,9 +7,15 @@ public class Small {
         for(int i = 1; i <= 5; i++){
             System.out.print("Enter number " + i + ": ");
             number = input.nextInt();
-            if(number < small){
-                small = number;
+            if(number < 101){
+                if(number < small){
+                    small = number;
+                }
+            }else{
+                System.out.println("Number enter must be 100 or less. Enter another number");
+                i--;
             }
+            
         }
         System.out.println("Smallest number entered is: " + small);
         input.close();
