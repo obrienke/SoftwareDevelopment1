@@ -2,9 +2,8 @@ import java.util.Scanner;
 public class AddWhat {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int x = 0, y = 0;
-        String name = "";
-
+        int x = 0;
+   
         System.out.print("\nEnter a number: ");
         x = input.nextInt();
         

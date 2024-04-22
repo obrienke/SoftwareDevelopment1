@@ -1,6 +1,6 @@
 public class ThreeMonths {
     public static void main(String[] args) {
-        for(int i = 1; i <=3; i++){
+        for(int i = 1; i <= 3; i++){
             if(i == 1){
                 System.out.println("\nJanuary");
             }else if( i == 2){

@@ -1,7 +1,7 @@
 public class NestedLoops {
     public static void main(String[] args) {
         System.out.println("\nPart a:\n");
-        //part 1 - 5 marks
+        //part 1
         int rows = 6; // Change this value to adjust the number of rows
         // Outer loop for the number of rows
         for (int i = 1; i <= rows; i++) {
@@ -13,7 +13,7 @@ public class NestedLoops {
             System.out.println();
         }
 
-        //part 2 - 7 marks   
+        //part 2 
         System.out.println("\nPart b:\n");
         int counter = 10; //first value to print on each row
         // Outer loop for the number of rows
@@ -27,7 +27,7 @@ public class NestedLoops {
             counter = 10; // reset for next row to start back at 10.
         }
 
-        //part 3 - 8 marks
+        //part 3
         System.out.println("\nPart c:\n");
         counter = 10;
         // Outer loop for the number of rows
