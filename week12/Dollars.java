@@ -4,7 +4,7 @@ public class Dollars {
         Scanner input = new Scanner(System.in);
         double euro, dollars;
         System.out.println();
-        System.out.print("Enter the current Euro to US Dollar conversin rate: ");
+        System.out.print("Enter the current Euro to US Dollar conversion rate: ");
         dollars = input.nextDouble();
         System.out.print("Enter the amount of Euro to convert to US Dollars: ");
         euro = input.nextDouble();
