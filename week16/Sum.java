@@ -21,10 +21,10 @@ public class Sum{
     System.out.println("Sum of odd numbers 1 to 100 is: "+odd);
     
     if(odd>even){
-	    diff = odd - even;
-	  }else{
-	    diff = even - odd;
-	  }
+	diff = odd - even;
+    }else{
+	diff = even - odd;
+    }
     System.out.println("Difference between sum of even and odd numbers is: "+diff);
   }
 }
