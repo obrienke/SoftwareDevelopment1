@@ -27,7 +27,7 @@ public class LargeSmall{
             counter++;
         }
 
-		System.out.println();
+	System.out.println();
         System.out.println("The largest number is: "+largest);
         System.out.println("The smallest number is: "+smallest);
         System.out.println();
