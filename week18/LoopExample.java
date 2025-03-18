@@ -7,5 +7,6 @@ public class LoopExample{
             System.out.print("Enter any other value than 0 to exit loop: ");
             count = input.nextInt();           
         }while(count == 0);
+        input.close();
     }
 }
