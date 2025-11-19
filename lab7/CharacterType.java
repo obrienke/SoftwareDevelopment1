@@ -1,3 +1,10 @@
+/*
+Character is a class in the java.lang package provided by the Java standard library. 
+It is a wrapper class for the primitive type char and contains many static utility 
+methods for working with characters.
+Note: It does not need to be imported.
+*/
+
 import java.util.Scanner;
 public class CharacterType {
     public static void main(String[] args) {
