@@ -69,7 +69,7 @@ public class Grades{
         }
 
         switch(answer){
-            case 2:
+            case (2 + 0):
                 System.out.println("Correct");
                 break;
             default:
