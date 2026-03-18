@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Guess2 {
+    public static void main(String[] args){
+        Scanner input = new Scanner(System.in);
+        int number = 5, guess = 0, count = 0;
+        String play = "y";
+        while(play.equals("y")){
+            do{
+                System.out.print("Guess a number: ");
+                guess = input.nextInt();
+                count++;
+            }while(number != guess);
+
+            System.out.println("Correct. Number is " + number + ". You took " + count + " attempts");
+            System.out.print("Play again (y/n): ");
+            play = input.next();
+            number += 3;
+        }
+        System.out.println("Game over");
+        
+        input.close();
+    }
+}
